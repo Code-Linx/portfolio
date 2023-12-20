@@ -1,0 +1,98 @@
+.btn {
+  display: flex;
+  width: 202px;
+  padding: 10px 35px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  border: none;
+  background: var(--primary-clr-light);
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
+
+.btn-default {
+  display: flex;
+  width: 202px;
+  padding: 10px 35px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  border: 1px solid var(--primary-clr-light);
+  background: var(--primary-clr-light-2);
+  color: var(--primary-clr-light);
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
+
+.btn a {
+  color: white;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+}
+
+.btn-default a {
+  color: var(--primary-clr-light);
+  background: var(--primary-clr-light);
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+}
+
+.btn:hover,
+a:hover {
+  background: var(--primary-clr-light-2);
+  color: var(--primary-clr-light);
+  border: 1px solid var(--primary-clr-light);
+}
+
+.btn-default:hover {
+  background: var(--primary-clr-light);
+  color: var(--primary-clr-light-2);
+  border: none;
+}
+
+a:hover {
+  border: none;
+  color: var(--primary-clr-light);
+}
+
+.hero-cta .project {
+  background: white;
+}
+
+.hero-cta .project:hover {
+  color: var(--primary-clr-light-2);
+  background: var(--primary-clr-light);
+}
+
+#submit-btn {
+  background-color: var(--primary-clr-light);
+  border: none;
+  margin-block: 15px;
+  color: white;
+  font-weight: 700;
+}
+
+.tech-stack {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 36px;
+  font-size: 18px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid blue;
+}
+
+.mobile-menu-img,
+.logo {
+  width: 38px;
+  height: 38px;
+}
+
+form {
+  display: flex;
+}
